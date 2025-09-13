@@ -1,0 +1,13 @@
+-- MAGIC METHODS ARE THE SPECIAL METHODS THAT ADDS MAGIC IN YOUR CLASS 
+-- THE TYPES OF MAGIC METHODS ARE :
+
+1. __init__ :
+    when we execute the class the programme written inside the __init__ automatically gets executed as the class is CALLED
+    in the instance 
+
+2. __str__ :
+    __str__ method is used to print the user friendly output in the class 
+
+FOR MORE INFORMATION ABOUT THE MAGIC METHODS VISIT THE LINK :
+    https://www.tutorialsteacher.com/python/magic-methods-in-python
+

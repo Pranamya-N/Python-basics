@@ -1,0 +1,40 @@
+# Every variable is the oblect in oop 
+
+# Everything is object in python and one object can be of multiple class 
+for eg : i am object of my college , country etc 
+
+# For eg :
+    if there is the list denoted as L = [1,2,3,4,5,6,7]
+    here [1,2,3,4,5,6,7] are the objects of the list class 
+    so basically we can say that objects comes insode classes 
+
+# Basically class contains two types :
+    1.Data or property 
+    2.Functions and behaviour 
+
+    we have a class car:
+    To undetstand the concept clearly we take an example of car so in the car the data are the colour of the 
+    car the engine types of the car no of wheels in the car etc etc ...
+
+    The functions of the car are to open the airbags , gps system tracking etc etc 
+    So in this way we can understand about the class clearly
+
+#FUNCTIONS VS METHODS
+METHODS ARE BASICALLY THE THE FUNCTIONS WHHICH ARE WRITTEN INSIDE THE CLASS
+
+FOR example: WE HAVE A FUNCTION LIST AND WHEN WE DO LIST.APPEND() HERE APPEND IS THEE METHOS AND LIST
+IS THE FUNCTION .
+
+# IN CLASS WE SHOULD DELCARE THE VARIABLE OUTSIDE THE SCOPE OF THE CLASS AND THEN WE SHOULD CALL THE CLASS THE VARIABLE OUTSIDE THE SCOPE OF THE CLASS IS 
+CALLED INSTANCE FOR THE EXAMPLE OF THE INSTANCE SEE THE EXAMPLE OF CLASSES . IN CLASSES THE INSTANCE IS  
+
+# SELF IN CLASSES 
+    -- THE OBJECT WHICH WE ARE WORKING IN THE PROGRAMME THE CODE ITSELF IS CALLED SELF 
+    -- IN REFRENCE TO THE PREVIOUS EXAMPLE OF THE CLASSES.PY WE NAMED THE INSTANCE PRANAMYA SO IN THAT CODE THE SELF IS THE INSTANCE ITSEF 
+    -- NOTE: EACH TIME WE CREATE A NEW INSTANCE WE HAVE NEW SELF SO BASICALLY WHAT HAPPENS IS THAT WHEN WE CREATE A NEW INSTAMCE WE HAVE 
+       NEW SELF
+
+note : in the skeleton diagram of the python classes - is private class and + is public class
+
+# CREATION OF OUR OWN DATA TYPE IN PYTHON 
+    --

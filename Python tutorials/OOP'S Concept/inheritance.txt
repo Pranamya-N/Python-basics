@@ -1,0 +1,99 @@
+there is 4 type of inheritace which are 
+
+Single Inheritance:
+
+A derived class inherits from only one base class.
+Example:
+python
+Copy code
+class Animal:
+    def eat(self):
+        print("Eating")
+
+class Dog(Animal):
+    def bark(self):
+        print("Barking")
+
+# Dog inherits from Animal
+Multiple Inheritance:
+
+A derived class inherits from more than one base class.
+Example:
+python
+Copy code
+class Bird:
+    def fly(self):
+        print("Flying")
+
+class Swimmer:
+    def swim(self):
+        print("Swimming")
+
+class Duck(Bird, Swimmer):
+    pass
+
+# Duck inherits from both Bird and Swimmer
+Multilevel Inheritance:
+
+A derived class is created from another derived class, forming a chain of inheritance.
+Example:
+python
+Copy code
+class Animal:
+    def eat(self):
+        print("Eating")
+
+class Mammal(Animal):
+    def walk(self):
+        print("Walking")
+
+class Dog(Mammal):
+    def bark(self):
+        print("Barking")
+
+# Dog inherits from Mammal, which in turn inherits from Animal
+Hierarchical Inheritance:
+
+Multiple derived classes inherit from a single base class.
+Example:
+python
+Copy code
+class Animal:
+    def eat(self):
+        print("Eating")
+
+class Dog(Animal):
+    def bark(self):
+        print("Barking")
+
+class Cat(Animal):
+    def meow(self):
+        print("Meowing")
+
+# Both Dog and Cat inherit from Animal
+Hybrid Inheritance:
+
+A combination of two or more types of inheritance. It usually involves a mix of hierarchical, single, or 
+multiple inheritance.
+Example:
+python
+Copy code
+class Animal:
+    def eat(self):
+        print("Eating")
+
+class Bird(Animal):
+    def fly(self):
+        print("Flying")
+
+class Swimmer:
+    def swim(self):
+        print("Swimming")
+
+class Duck(Bird, Swimmer):
+    pass
+
+# Duck inherits from Bird (which inherits from Animal) and also from Swimmer
+Each type of inheritance has its own use case and is chosen based on the relationships between the classes you want 
+to represent.
+ 
